@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    background: linear-gradient(45deg, #CF5D10, #ffffff);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(251, 250, 250, 0.1);
+}
+
+h2, h3 {
+    color: #ffffff;
+}
+
+/* Sidebar */
+.sidebar .sidebar-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.stSidebar {
+    background-color: #CF5D10;
+    color: #8C4403;
+    border-radius: 10px;
+}
+
+.stSidebar .stRadio, .stSidebar .stSelectbox {
+    background-color: #8C4403;
+    color: white;
+}
+
+/* Button Styles */
+.stButton > button {
+    background-color: #8C4403;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.stButton > button:hover {
+    background-color: #8C4403;
+}
+
+/* Data Table Styles */
+.stDataFrame {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Custom Background Image */
+.stApp {
+    background-image: url('https://www.couleurs-et-matieres.fr/wp-content/uploads/2023/05/salon-africain-moderne.webp');
+    background-size: cover;
+    background-position: center center;
+}
+
+/* Card Styles */
+.stCard {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Form Styles */
+.stForm {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.stTitle {
+    font-size: 2rem;
+    color: #FF7010;
+    margin-bottom: 10px;
+}
+
+
